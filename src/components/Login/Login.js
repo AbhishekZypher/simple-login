@@ -8,7 +8,6 @@ import Button from '../UI/Button/Button';
 
 // we could use anonymous function directly inside a the useReducer
 const emailReducer = (state, action) => {
-  console.log(state)
   if (action.type === 'USER_INPUT') {
     return {
       value: action.val,
